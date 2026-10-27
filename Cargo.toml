@@ -1,0 +1,17 @@
+[package]
+name = "rust-api-heroku"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+# api framework
+axum = "0.7.2"
+dotenv = "0.15.0"
+# async runtime
+tokio = { version = "1.35.0", features = ["full"] }
+
+# logging
+tracing = "0.1.40"
+tracing-subscriber = "0.3.18"
